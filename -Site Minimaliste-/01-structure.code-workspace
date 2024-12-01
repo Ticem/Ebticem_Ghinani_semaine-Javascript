@@ -1,0 +1,51 @@
+{
+	"folders": [
+		{
+			"name": "01-structure",
+			"path": "../01-structure"
+		},
+		{
+			"name": "02 - ancres",
+			"path": "../02 - ancres"
+		},
+		{
+			"name": "03- paragraphe",
+			"path": "../03- paragraphe"
+		},
+		{
+			"name": "04- listes",
+			"path": "../04- listes"
+		},
+		{
+			"name": "05 tables",
+			"path": "../05 tables"
+		},
+		{
+			"name": "06 images et vidéos",
+			"path": "../06 images et vidéos"
+		},
+		{
+			"name": "flexbox",
+			"path": "../flexbox"
+		},
+		{
+			"name": "les formulaires",
+			"path": "../les formulaires"
+		},
+		{
+			"name": "Mise en page",
+			"path": "../Mise en page"
+		},
+		{
+			"name": "-TEST-",
+			"path": "."
+		},
+		{
+			"name": "tp 2",
+			"path": "../tp 2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "-TEST-"
+	}
+}

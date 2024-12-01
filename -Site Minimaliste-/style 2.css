@@ -1,0 +1,71 @@
+.logo {
+    background: left / cover url(''); /* bannière */
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    font:
+      bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',
+      fantasy;
+    color: #e2e2e2;
+    text-decoration:underline;
+    background-color: black;
+  }
+
+  
+
+  @media only screen and (max-width: 480px)
+  /* responsive */
+  
+  
+    {
+    #img-header display: none;
+  }
+  
+  .w-50 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles pour tablettes */
+  }
+  
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Styles pour ordinateurs portables */
+  }
+
+
+  
+
+  p{
+    color: whk;
+   text-align: center; /* centrer le texte */
+ }  
+
+
+
+  main {   /* couleur bannière du fond */
+    text-align: center;
+    padding: 100px;
+    background-color: #b0b0b0;
+    color: #000;
+  }
+  
+  h1 {
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+
+
+  footer {                  /*  footer */
+    flex-shrink: 0;
+    width: 100%;
+    background: #ffff;
+    
+  }
+
+  

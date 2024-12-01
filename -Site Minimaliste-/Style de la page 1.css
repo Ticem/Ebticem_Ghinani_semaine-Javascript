@@ -1,0 +1,162 @@
+body {
+
+  background-color: rgb(241, 241, 241);
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+/* dark mode */
+
+.dark-mode {
+  background-color: rgb(31, 31, 31);
+  color: rgb(163, 163, 163);
+  
+}
+
+.dark-mode a {
+  color: red;
+}
+
+@media only screen and (max-width: 480px)
+/* responsive */
+
+
+
+
+@media only screen and  (min-width: 768px) and (max-width: 1024px) {
+  /* Styles pour tablettes */
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* Styles pour ordinateurs portables */
+}
+
+
+* {
+  box-sizing: border-box;   /* bordure des cadres */
+  margin: 0%;
+  padding: 0%;
+}
+
+
+
+p {
+  color: whk;
+  text-align: center;
+  /* centrer le texte */
+}
+
+
+
+*/ img {
+
+  size: 300px;
+}
+
+
+.frame {
+  width: 350px;
+  height: 350px;
+  border: 3px solid #000000;
+  background: #000000;
+  margin: auto;
+  padding: 15px 25px;
+  /* cadres des images*/
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  background: left / cover url('https://mentorshow.com/wp-content/uploads/2024/03/signification-couleur-noir.png');
+  /* bannière */
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  font:
+    bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',
+    fantasy;
+  color: #f0f0f0;
+
+}
+
+
+
+h1 {
+  font-size: 10vw;
+  text-align: center;
+  margin-top: 20px;
+  color: #bdbdbd;
+}
+
+
+
+
+footer {                  /*  footer */
+  flex-shrink: 0;
+  border-top: 1px dashed #000;
+  width: 100%;
+  background: #e2e2e2;
+  
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #d5d4d4;
+}
+
+
+
+
+/* Style Tabs*/
+
+
+.tab button:hover {
+  background-color: gray
+
+}
+
+/* agrandissement du texte */
+
+ul {
+  display: flex;
+  justify-content: space-between; 
+}
+
+li {
+  transition: transform 0.3s; 
+}
+
+li:hover {
+  transform: scale(1.2); 
+  color: #767676;
+}
+
+
+.tab button:hover {
+  opacity: 50%;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
